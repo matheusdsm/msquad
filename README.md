@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MSQUAD - Equipe de Desenvolvimento Enterprise
 
 <p align="center">
