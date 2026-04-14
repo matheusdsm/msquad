@@ -1,7 +1,7 @@
 # MSQUAD - Equipe de Desenvolvimento Enterprise
 
 <p align="center">
-  <img src="brand/msquad.png" alt="MSQUAD Logo" width="200"/>
+  <img src="brand/msquad.png" alt="MSQUAD Logo"/>
 </p>
 
 ---
