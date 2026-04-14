@@ -1,7 +1,7 @@
 # MSQUAD - Equipe de Desenvolvimento Enterprise
 
 <p align="center">
-  <img src="brand/msquad.png" alt="MSQUAD Logo" width="200"/>
+  <img src="brand/msquad.png" alt="MSQUAD Logo" width="400"/>
 </p>
 
 ---
@@ -79,8 +79,8 @@ O MSQUAD é detectado automaticamente pelo OpenCode. Copie a pasta `msquad/` par
 - [x] 6 membros especializados
 - [x] Processo com gates
 - [x] Brand enterprise
-- [ ] Publicação GitHub ← Você está aqui
-- [ ] Primeira release
+- [x] Publicação GitHub
+- [x] Primeira release
 
 ---
 
