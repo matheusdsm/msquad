@@ -88,7 +88,7 @@ Ao receber uma tarefa:
 | Bug fix | Edison → Grace → Arquimedes | Parcial | 3, 4, 5 |
 | Decisão técnica | César → Napoléon | Parcial | Gate 1 |
 | Deploy | Arquimedes → Grace → Napoléon | Parcial | 4, 5, 6 |
-| Requisitos | C��sar | Única | Pré-Gate 1 |
+| Requisitos | César | Única | Pré-Gate 1 |
 | Arquitetura | Nelson → Edison | Parcial | Gate 2 |
 | Testes | Grace | Única | Gate 4 |
 | Revisão de código | Edison → Nelson → Grace | Parcial | Gate 3 |
