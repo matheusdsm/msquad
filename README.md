@@ -79,8 +79,8 @@ O MSQUAD é detectado automaticamente pelo OpenCode. Copie a pasta `msquad/` par
 - [x] 6 membros especializados
 - [x] Processo com gates
 - [x] Brand enterprise
-- [ ] Publicação GitHub ← Você está aqui
-- [ ] Primeira release
+- [x] Publicação GitHub
+- [x] Primeira release
 
 ---
 
