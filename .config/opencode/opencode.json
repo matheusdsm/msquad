@@ -1,0 +1,47 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "~/.config/opencode/AGENTS.md",
+    "~/.config/opencode/msquad/agents/AGENTS.md",
+    "~/.config/opencode/msquad/agents/ORCHESTRATE.md",
+    "~/.config/opencode/msquad/skills/*.md",
+    "~/.config/opencode/msquad/docs/*.md"
+  ],
+  "agent": {
+    "orchestrate": {
+      "description": "Orquestrador MSQUAD - Coordena equipe de desenvolvimento completa",
+      "mode": "all",
+      "tools": {
+        "read": true,
+        "write": true,
+        "edit": true,
+        "glob": true,
+        "grep": true,
+        "task": true,
+        "bash": true,
+        "codesearch": true,
+        "websearch": true,
+        "webfetch": true,
+        "question": true
+      }
+    }
+  },
+  "server": {
+    "port": 4096,
+    "hostname": "0.0.0.0",
+    "mdns": true,
+    "cors": ["http://localhost:5173"]
+  },
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "example": { "name": "example" }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Arquivos sensíveis
+.env
+.env.local
+*.pem
+*.key
+
+# Builds e artefatos
+dist/
+build/
+*.egg-info/
+
+# Cache
+__pycache__/
+node_modules/
+.cache/
