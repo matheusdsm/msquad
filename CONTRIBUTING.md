@@ -34,15 +34,37 @@ Este documento estabelece as diretrizes para contribuição no projeto.
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do Projeto V2 (Lightweight)
 
 ```
 msquad/
-├── agents/       ← Agentes IA
-├── skills/       ← Skills especializadas
-├── docs/         ← Documentação
-├── brand/        ← Assets de marca
-└── [arquivos]   ← Raiz (LICENSE, README, etc)
+└── skills/           ← 7 skills especializadas
+    ├── cto.md        ← Napoléon - Estratégia
+    ├── po.md         ← César - Negócio
+    ├── architect.md  ← Nelson - Arquitetura
+    ├── dev.md        ← Edison - Implementação
+    ├── qa.md         ← Grace - Qualidade
+    ├── ops.md        ← Arquimedes - Deploy
+    └── orchestrator.md ← Orquestração de gates
+```
+
+### Comparativo v1 vs v2
+
+| Métrica | v1.0 | v2.0 | Redução |
+|---------|------|------|---------|
+| Arquivos core | 17 | 7 | **58.8%** |
+| Pastas | 4 | 1 | **75%** |
+
+---
+
+## Uso e Integração
+
+O MSQUAD é detectado automaticamente pelo OpenCode. Para integrar ao seu projeto:
+
+```
+1. Copiar pasta msquad/ para dentro do projeto
+2. Usar via OpenCode com os membros especializados
+3. Seguir o fluxo de gates para cada tarefa
 ```
 
 ---

@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.0] - 2026-04-16
+
+### Changed
+- Lightweight engineering: estrutura simplificada para uso direto via OpenCode
+- Nova hierarquia de pastas: `msquad/` como raiz principal
+- Site MSQUAD com GitHub Pages (onepage/)
+- CNAME configurado para domínio customizado
+- Correções de path de imagens e typos
+
+### Added
+- Orchestrator skill para coordenação automática de gates
+- README one-page para referência rápida
+
+### Removed
+- Documentação redundante em duplicated folders
+- Estrutura complexa de configuração
+
+### Metrics
+- Redução de 58.8% em arquivos core (17 → 7)
+- Redução de 75% em pastas (4 → 1)
+
+---
+
 ## [1.0.0] - 2026-04-14
 
 ### Added

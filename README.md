@@ -1,5 +1,8 @@
 # MSQUAD - Equipe de Desenvolvimento Enterprise
 
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/matheusdsm/msquad)
+[![Status](https://img.shields.io/badge/status-lightweight-green.svg)]()
+
 <p align="center">
   <img src="brand/msquad.png" alt="MSQUAD Logo" height="640" width="360"/>
 </p>
@@ -80,7 +83,26 @@ O MSQUAD é detectado automaticamente pelo OpenCode. Copie a pasta `msquad/` par
 - [x] Processo com gates
 - [x] Brand enterprise
 - [x] Publicação GitHub
-- [x] Primeira release
+- [x] Primeira release (v1.0)
+- [x] Lightweight engineering (v2.0)
+- [x] GitHub Pages com site estático
+
+---
+
+## Métricas de Engenharia
+
+| Métrica | v1.0 | v2.0 | Redução |
+|---------|------|------|---------|
+| Arquivos core | 17 | 7 | **58.8%** |
+| Pastas | 4 | 1 | **75%** |
+
+---
+
+## v2.0 Lightweight
+
+- Estrutura simplificada para uso direto via OpenCode
+- Pasta `msquad/` como raiz principal
+- Orchestrator para coordenação automática de gates
 
 ---
 
